@@ -1,20 +1,21 @@
 :root {
-  --bg-color: #f9f9f9;
-  --text-color: #333;
+  --bg-color: #f4f6f8;
+  --text-color: #212121;
   --card-bg: #ffffff;
-  --primary-color: #0d47a1;
-  --button-bg: #0d52a1;
-  --footer-bg: #0d47a1;
+  --primary-color: #005792;
+  --button-bg: #0077b6;
+  --footer-bg: #003f5c;
 }
 
 body.dark-mode {
   --bg-color: #121212;
-  --text-color: #f9f9f9;
+  --text-color: #e0e0e0;
   --card-bg: #1f1f1f;
-  --primary-color: #222;
+  --primary-color: #41759f;
   --button-bg: #333;
   --footer-bg: #111;
 }
+
 
 /* General */
 * {
@@ -183,7 +184,7 @@ input:checked + .slider:before {
 .card {
   background: var(--card-bg);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 300px;
   transition: 0.3s;
@@ -196,7 +197,7 @@ input:checked + .slider:before {
 
 .card h3 {
   margin-bottom: 10px;
-  color: #1540c0;
+  color: #6783d6;
 }
 
 .card-img {
@@ -700,37 +701,16 @@ body.dark-mode .read-more:hover {
 
 body.dark-mode .industries-content h3 {
   color: #90caf9;
-  text-shadow: 0 0 10px rgba(144, 202, 249, 0.8);
 }
 
 
 body.dark-mode .industries-header h2 {
   color: #90caf9;
-  text-shadow: 0 0 12px rgba(144, 202, 249, 0.9);
 }
 
 body.dark-mode .industries-header p {
   color: #fff;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
-/* Dark Mode Headings Glow Only */
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode h4 {
-  text-shadow: 0 0 10px rgba(144, 202, 249, 0.8);
-}
-
-/* Specific sections for extra glow */
-body.dark-mode .section h2,
-body.dark-mode .summary-title,
-body.dark-mode .tech-title,
-body.dark-mode .industries-header h2,
-body.dark-mode .industries-content h3,
-body.dark-mode .industry-card h4 {
-  text-shadow: 0 0 12px rgba(144, 202, 249, 0.9);
-}
-
 /* Chatbot Styles */
   .chatbot-section {
     position: fixed;
